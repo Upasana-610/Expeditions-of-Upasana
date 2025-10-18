@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IoMdClose } from "react-icons/io";
 
 import { NavbarMenu } from "./NavbarItems";
+
 import { ResumeData } from "@/constants/ResumeData";
 
 const MobileNavbar = ({ showMenu, setShowMenu }) => {

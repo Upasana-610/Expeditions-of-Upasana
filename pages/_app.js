@@ -8,7 +8,6 @@ import { PortfolioProvider } from "@/contextApi/PortfolioContext"
 import ThemeProvider from "@/context/themeContext"
 
 
-
 export default function App({ Component, pageProps }) {
 
   return (

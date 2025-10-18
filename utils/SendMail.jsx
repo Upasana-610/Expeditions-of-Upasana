@@ -25,7 +25,7 @@ const SendMail = () => {
       .then((res) => {
         console.log(res.data);
         setSending(false);
-        alert("Message Sended Successfully");
+        alert("Message Sent Successfully");
         setFormData({});
       })
       .catch((err) => {

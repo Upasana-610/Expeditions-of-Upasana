@@ -1,15 +1,20 @@
 "use client";
-import React, { Fragment, useContext, useEffect, useRef, useState } from "react";
+import React, {
+  Fragment,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-
 import { ThemeContext } from "@/context/themeContext";
-
+import { ResumeData } from "@/constants/ResumeData";
 
 const Intro = () => {
   const [isHome, setIsHome] = useState(false);
-  const { theme, setThemeFun } = useContext(ThemeContext); 
+  const { theme, setThemeFun } = useContext(ThemeContext);
   const homeRef = useRef();
   const introRef = useRef();
   const profileRef = useRef();
@@ -72,7 +77,7 @@ const Intro = () => {
             </p>
             <a
               className="relative inline-flex items-center text-xl font-semibold text-black hover:text-blue-500 group"
-              href="#contact"
+              href="#getInTouch"
             >
               <span className="mt-16 text-2xl md:text-4xl text-[#c72c6c] dark:text-[#07d0e5] group-hover:text-red-400">
                 {" "}
@@ -97,7 +102,13 @@ const Intro = () => {
     dark:border-blue-400
   "
             ref={profileRef}
-            style={{ backgroundImage: `url(${theme==="dark" ? "/myimage/Turquoise.png" : "/myimage/Pink.png"})` }}
+            style={{
+              backgroundImage: `url(${
+                theme === "dark"
+                  ? "/myimage/Turquoise.png"
+                  : "/myimage/Pink.png"
+              })`,
+            }}
           />
         </div>
       </section>

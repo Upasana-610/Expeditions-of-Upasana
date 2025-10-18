@@ -7,6 +7,9 @@ import { IoPerson } from "react-icons/io5";
 import { BsMenuAppFill } from "react-icons/bs";
 import Link from "next/link";
 
+import { ResumeData } from "@/constants/ResumeData";
+
+
 const About = () => {
   const [isAbout, setIsAbout] = useState(false);
 
@@ -92,7 +95,7 @@ const About = () => {
                 {/* Download CV Button */}
                 <Link
                   className="text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1"
-                  href="https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view"
+                  href={ResumeData.drive}
                   target="_blank"
                 >
                   Download CV

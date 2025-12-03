@@ -25,7 +25,7 @@ const MobileNavbar = ({ showMenu, setShowMenu }) => {
             {/* Name Logo */}
             <div className="flex items-center gap-2">
               <div className="text-white w-8 h-8 bg-[#c72c6c] dark:bg-[#07d0e5] rounded-full flex justify-center items-center">
-                S
+                UP
               </div>
               <p className="text-gray-400 flex">
                 <span className="text-lg font-bold">UPASANA</span>

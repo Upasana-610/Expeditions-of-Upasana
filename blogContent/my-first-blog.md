@@ -5,7 +5,7 @@
 In a world overflowing with information, expectations, and constant motion, finding clarity feels like discovering a quiet lake hidden deep within a forest. Yet clarity is not a luxury; it is a guiding force that shapes our decisions, strengthens our focus, and brings meaning into our everyday lives.  
 <br><br>
 
-Clarity begins with **intentional stillness**. When we pause — truly pause — we create space for our thoughts to settle. Like water that becomes transparent once undisturbed, our minds reveal the solutions, emotions, and ideas that were always present but hidden beneath the surface. Stillness is not the absence of movement; it is the presence of awareness.  
+Clarity begins with **intentional stillness**. When we pause — truly pause — we create space for our thoughts to settle. Like water that becomes transparent once undisturbed, our minds reveal the solutions, emotions, and ideas that were always present but hidden beneath the surface. Stillness is not the absence of movement; it is the presence of awareness 
 <br><br>
 
 Next comes **purposeful reflection**. Journaling, mindful conversations, and asking ourselves honest questions help illuminate the deeper motivations behind our actions. Reflection turns vague desires into defined goals and transforms confusion into understanding. It is in these quiet reflections that we discover what truly matters.  

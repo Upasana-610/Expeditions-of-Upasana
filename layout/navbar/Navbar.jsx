@@ -72,7 +72,7 @@ const Navbar = () => {
               className={
                 "text-[#c72c6c] dark:text-[#07d0e5] font-semibold italic"
               }
-              href={navbar.link}
+              href={`/${navbar.link}`}
               key={navbar.name}
             >
               <div className="h-full pb-1 hover:pb-0 px-2 flex items-center hover:border-b-4  border-[#c72c6c] dark:border-[#07d0e5] transition-all">

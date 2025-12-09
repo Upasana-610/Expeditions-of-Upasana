@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import About from "@/sections/about";
 import Education from "@/sections/education";
 import Experience from "@/sections/experience";
+import LatestBlogs from "@/sections/LatestBlogs";
 const Navbar = dynamic(() => import("@/layout/navbar/Navbar"));
 const Footer = dynamic(() => import("@/layout/footer/Footer"));
 const Intro = dynamic(() => import("@/sections/Intro"));
@@ -39,6 +40,8 @@ const Home = () => {
           <About />
           {/* Projects */}
           <Projects />
+          {/*Blogs*/}
+          {/* <LatestBlogs /> */}
           {/* Experience */}
           <Experience />
           {/* Skills  */}

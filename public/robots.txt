@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://upasana-s-expedition.vercel.app/sitemap.xml

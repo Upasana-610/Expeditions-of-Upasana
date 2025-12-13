@@ -10,6 +10,8 @@ import NavbarMobile from "./NavbarMobile";
 
 import { ThemeContext } from "@/context/themeContext";
 import { ResumeData } from "@/constants/ResumeData";
+import Image from "next/image";
+
 
 const Navbar = () => {
   const [top, setTop] = useState("0");
@@ -48,11 +50,23 @@ const Navbar = () => {
         style={{ top: top }}
       >
         {/* Name Logo */}
-        <p className="text-pink-600 flex dark:text-[#07d0e5]">
-          <span className="text-lg font-medium italic">
-            Upasana&apos;s Expeditions
+        <div className="flex items-center gap-3">
+        {/* Logo Image */}
+          <div className="w-10 h-10 rounded-full overflow-hidden border border-pink-300 dark:border-[#07d0e5]">
+            <Image
+              src="/myimage/Pink.png"
+              alt="Upasana Pan logo - Expeditions of Upasana"
+              width={40}
+              height={40}
+              priority
+            />
+          </div>
+
+          {/* Brand Name */}
+          <span className="text-lg font-medium italic text-pink-600 dark:text-[#07d0e5]">
+            Expeditions of Upasana
           </span>
-        </p>
+      </div>
         <div className="h-full flex gap-4">
           <Link
             className={

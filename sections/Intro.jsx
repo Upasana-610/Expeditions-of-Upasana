@@ -6,11 +6,8 @@ import React, {
   useRef,
   useState,
 } from "react";
-import Head from "next/head";
-import Link from "next/link";
 
 import { ThemeContext } from "@/context/themeContext";
-import { ResumeData } from "@/constants/ResumeData";
 
 const Intro = () => {
   const [isHome, setIsHome] = useState(false);
@@ -51,9 +48,6 @@ const Intro = () => {
 
   return (
     <Fragment>
-      <Head>
-        <title>Upasana&apos;s Portfolio</title>
-      </Head>
       <section id="home">
         <div
           className="min-h-[100vh] overflow-x-hidden px-[20px] md:px-[200px] lg:px-[200px] pt-[80px] md:pt-0 md:flex items-center justify-between shadow-zinc-300 dark:shadow-zinc-700 shadow-sm"

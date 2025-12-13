@@ -100,6 +100,9 @@ const Home = () => {
             }
           `}
         </script>
+
+        {/*<!-- Google Verification meta tag --!>*/}
+        <meta name="google-site-verification" content="tkebIdRXPmWW0AU_kD_cpVFu8L4z6wjlxi46rAA9__U" />
         {/* <!-- Favicon --> */}
         <link href="/pinkfavicon.ico" rel="icon" />
       </Head>

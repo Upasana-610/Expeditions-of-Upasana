@@ -1,4 +1,8 @@
+# START YOAST BLOCK
+# ---------------------------
 User-agent: *
-Allow: /
+Disallow:
 
-Sitemap: https://upasana-s-expedition.vercel.app/sitemap.xml/
+Sitemap: https://upasana-s-expedition.vercel.app/sitemap_index.xml/
+# ---------------------------
+# END YOAST BLOCK

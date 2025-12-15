@@ -3,6 +3,7 @@ import React, { Fragment, useContext, useEffect, useState } from "react";
 import Link from "next/link";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { TbBulbFilled } from "react-icons/tb";
+import Image from "next/image";
 
 import MobileNavbar from "./SidebarMobile";
 import { NavbarMenu } from "./NavbarItems";
@@ -10,7 +11,6 @@ import NavbarMobile from "./NavbarMobile";
 
 import { ThemeContext } from "@/context/themeContext";
 import { ResumeData } from "@/constants/ResumeData";
-import Image from "next/image";
 
 
 const Navbar = () => {
@@ -54,17 +54,17 @@ const Navbar = () => {
         {/* Logo Image */}
           <div className="w-10 h-10 rounded-full overflow-hidden border border-pink-300 dark:border-[#07d0e5]">
             <Image
-              src="/myimage/Pink.png"
-              alt="Upasana Pan logo - Expeditions of Upasana"
-              width={40}
+              alt="Upasana Pan logo - Upa's Expeditions"
               height={40}
               priority
+              src="/myimage/Pink.png"
+              width={40}
             />
           </div>
 
           {/* Brand Name */}
           <span className="text-lg font-medium italic text-pink-600 dark:text-[#07d0e5]">
-            Expeditions of Upasana
+            Upa&apos;s Expeditions
           </span>
       </div>
         <div className="h-full flex gap-4">

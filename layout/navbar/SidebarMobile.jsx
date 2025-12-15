@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 import { IoMdClose } from "react-icons/io";
+import Image from "next/image";
 
 import { NavbarMenu } from "./NavbarItems";
 
@@ -24,9 +25,16 @@ const MobileNavbar = ({ showMenu, setShowMenu }) => {
           <div className="p-3 bg-gray-200 dark:bg-gray-800 flex justify-between items-center gap-3">
             {/* Name Logo */}
             <div className="flex items-center gap-2">
-              <div className="text-white w-8 h-8 bg-[#c72c6c] dark:bg-[#07d0e5] rounded-full flex justify-center items-center">
-                UP
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-pink-300 dark:border-[#07d0e5]">
+                <Image
+                  alt="Upasana Pan logo - Upa's Expeditions"
+                  height={40}
+                  priority
+                  src="/myimage/Pink.png"
+                  width={40}
+                />
               </div>
+
               <p className="text-gray-400 flex">
                 <span className="text-lg font-bold">UPASANA</span>
               </p>

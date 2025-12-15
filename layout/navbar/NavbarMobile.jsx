@@ -21,7 +21,7 @@ const NavbarMobile = ({ setShowMenu, setThemeFun, theme, showMenu, top }) => {
 
         {/* Name Logo */}
         <p className='text-pink-600 flex dark:text-[#07d0e5]'>
-          <span className='text-lg font-medium italic'>Upasana&apos;s Expeditions</span>
+          <span className='text-lg font-medium italic'>Upa&apos;s Expeditions</span>
         </p>
       </div>
 

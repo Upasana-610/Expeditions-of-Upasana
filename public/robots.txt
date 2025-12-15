@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://upasana-s-expedition.vercel.app/sitemap.xml/
+Sitemap: https://upasana-s-expedition.vercel.app/sitemap.xml
 # ---------------------------
 # END YOAST BLOCK

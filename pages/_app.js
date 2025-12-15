@@ -107,7 +107,7 @@ export default function App({ Component, pageProps }) {
 
           {/*<!-- Google Verification meta tag --!>*/}
           <meta
-            content="tkebIdRXPmWW0AU_kD_cpVFu8L4z6wjlxi46rAA9__U"
+            content="qDOCh_pdt1qxv30uZgFBlhUe6uo4ehCaqQt17mSgse0"
             name="google-site-verification"
           />
         </Head>

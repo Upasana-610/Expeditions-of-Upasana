@@ -38,6 +38,7 @@ export default function App({ Component, pageProps }) {
             content="Upasana Pan | Software Engineer | Upasana's Portfolio"
             property="og:title"
           />
+          <meta content="Upa's Expeditions" property="og:site_name" />
           <meta
             content="Portfolio website of Upasana Pan, Software Engineer."
             property="og:description"

@@ -65,7 +65,7 @@ export default function App({ Component, pageProps }) {
             name="twitter:image"
           />
           {/* Favicon & Google Verification - Remains here */}
-          <link href="/pinkfavicon.ico" rel="icon" />
+          <link href="/favicon.ico" rel="icon" />
           <meta
             content="qDOCh_pdt1qxv30uZgFBlhUe6uo4ehCaqQt17mSgse0"
             name="google-site-verification"

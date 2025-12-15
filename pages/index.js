@@ -18,24 +18,7 @@ const Feedback = dynamic(() => import("@/utils/Feedback"));
 const Home = () => {
   return (
     <Fragment>
-      <Head>
-        {/* Primary SEO */}
-        <title>
-          Upasana Pan | Software Engineer | Upasana&apos;s Portfolio
-        </title>
-
-        <meta
-          content="Upasana's Expeditions – Personal portfolio of Upasana Pan, a Software Engineer. Explore projects, tech stack, experience, blogs, and contact information."
-          name="description"
-        />
-
-        <meta content="Upasana Pan" name="author" />
-        <meta content="index, follow" name="robots" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-        {/* Canonical */}
-        <link href="https://upasana-s-expedition.vercel.app/" rel="canonical" />
-      </Head>
+      <Head>{/*Add tags like title, description and url if need to overridde or for new pages */}</Head>
       <div>
         <div>
           {/* Desktop Navbar */}

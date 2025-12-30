@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 import { BlogsData } from "@/constants/BlogsData";
 import Navbar from "@/layout/navbar/Navbar";

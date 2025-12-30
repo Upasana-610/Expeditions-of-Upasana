@@ -8,20 +8,23 @@ export const BlogsData = [
   },
   {
     heading: "Key Learnings from Namaste Javascript By Akshay Saini",
+    description:"aa",
     image:
       "https://res.cloudinary.com/dcvpkurqf/image/upload/fl_preserve_transparency/v1765263139/JS_qcsnvz.jpg",
     slug: "my-first-blog",
   },
   {
     heading: "Key Learnings from Namaste Javascript By Akshay Saini",
+    description:"aa",
     image:
       "https://res.cloudinary.com/dcvpkurqf/image/upload/fl_preserve_transparency/v1765263139/JS_qcsnvz.jpg",
     slug: "my-first-blog",
   },
   {
     heading: "Key Learnings from Namaste Javascript (season 2) By Akshay Saini",
+    description:"aa",
     image:
       "https://res.cloudinary.com/dcvpkurqf/image/upload/fl_preserve_transparency/v1765263139/JS_qcsnvz.jpg",
-    slug: "how-internet-works",
+    slug: "my-first-blog",
   }
 ];

@@ -1,5 +1,5 @@
 <div className="text-left max-w-4xl mx-auto px-4 leading-relaxed">
-<h1 style="font-size: 2.5rem; font-weight: 700;">🌐 How does the Internet Work?</h1>
+<h2 style="font-size: 2.5rem; font-weight: 700;">🌐 Computer Networking</h2>
 
 **Trends** may change, but *fundamentals* stand the test of time.
 Here is a quick revisit to the overview of how the internet works:

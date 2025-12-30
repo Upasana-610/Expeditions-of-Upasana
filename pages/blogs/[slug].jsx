@@ -57,7 +57,7 @@ export default function BlogPage({ heading, image, content, slug, description })
         />
 
         <div
-          className="prose md:text-center mt-14"
+          className="prose dark:prose-invert md:text-center mt-14"
           dangerouslySetInnerHTML={{ __html: content }}
           style={{ maxWidth: "800px" }}
         />

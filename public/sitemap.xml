@@ -4,4 +4,12 @@
     <loc>https://upasana-s-expedition.vercel.app/</loc>
     <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://upasana-s-expedition.vercel.app/blogs/how-internet-works/</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://upasana-s-expedition.vercel.app/blogs/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>

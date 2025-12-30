@@ -2,15 +2,37 @@ import fs from "fs";
 import path from "path";
 import { marked } from "marked";
 import Image from "next/image";
+import Head from "next/head";
 
 import { BlogsData } from "../../constants/BlogsData";
 
 import Navbar from "@/layout/navbar/Navbar";
 
-export default function BlogPage({ heading, image, content }) {
+export default function BlogPage({ heading, image, content, slug, description }) {
+  const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": heading,
+  "image": image,
+  "author": {
+    "@type": "Person",
+    "name": "Upasana Pan"
+  }
+};
   return (
     <>
-      {" "}
+      <Head>
+        <title>{`${heading}`}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={heading} />
+        <meta property="og:image" content={image} />
+        <link rel="canonical" href={`https://upasana-s-expedition.vercel.app/blogs/${slug}`} />
+        <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      </Head>
+      
       <Navbar />
       <div className="w-fit mx-auto px-8">
         {" "}
@@ -35,7 +57,7 @@ export default function BlogPage({ heading, image, content }) {
         />
 
         <div
-          className="md:text-center mt-14"
+          className="prose md:text-center mt-14"
           dangerouslySetInnerHTML={{ __html: content }}
           style={{ maxWidth: "800px" }}
         />
@@ -72,6 +94,8 @@ export async function getStaticProps({ params }) {
       heading: blog.heading,
       image: blog.image,
       content: convertedHTML,
+      description: blog.description,
+      slug: blog.slug
     },
   };
 }

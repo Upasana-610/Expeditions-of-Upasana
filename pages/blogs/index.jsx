@@ -7,6 +7,20 @@ import Navbar from "@/layout/navbar/Navbar";
 export default function BlogList({ blogs }) {
   return (
     <>
+     <Head>
+        <title>Technical Blogs | AI, Data, Engineering & Insights</title>
+        <meta 
+          name="description" 
+          content="Deep dive into networking, software engineering, and web development. Explore technical guides, articles and business insights." 
+        />
+        <link rel="canonical" href="https://upasana-s-expedition.vercel.app/blogs" />
+        
+        {/* Social Media Preview */}
+        <meta property="og:title" content="Technical Blog | Upa's Expeditions" />
+        <meta property="og:description" content="Technical guides and software engineering insights." />
+        <meta property="og:image" content="https://upasana-s-expedition.vercel.app/myimage/Pink.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+     </Head>
       <Navbar />
 
       <div className="p-12 min-h-screen">

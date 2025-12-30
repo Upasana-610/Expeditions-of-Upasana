@@ -1,3 +1,4 @@
+// Add the best blogs at the top or beginning of array
 export const BlogsData = [
   {
     heading: "🌐 How does the Internet Work?",

@@ -8,11 +8,11 @@ export const BlogsData = [
     slug: "how-internet-works",
   },
   {
-    heading: "Coming Soon...",
+    heading: "A Brief Overview of AI",
     description:"aa",
     image:
       "https://res.cloudinary.com/dcvpkurqf/image/upload/fl_preserve_transparency/v1765263139/JS_qcsnvz.jpg",
-    slug: "my-first-blog",
+    slug: "ai-overview",
   },
   {
     heading: "Coming Soon...",

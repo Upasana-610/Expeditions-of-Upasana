@@ -11,7 +11,7 @@ export const BlogsData = [
     heading: "A Brief Overview of AI",
     description:"aa",
     image:
-      "https://res.cloudinary.com/dcvpkurqf/image/upload/fl_preserve_transparency/v1765263139/JS_qcsnvz.jpg",
+      "https://res.cloudinary.com/dcvpkurqf/image/upload/v1768828933/AI_image_uyuztg.png",
     slug: "ai-overview",
   },
   {

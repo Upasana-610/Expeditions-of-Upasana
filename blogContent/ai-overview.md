@@ -30,7 +30,7 @@ Data is converted to Tokens (small chunks of data, roughly 3/4 of a word for eng
 * Anthropic Claude: 200000 tokens
 * Gemini: 1000000 tokens (~750000 words, ~5000 lines of code)
 
-If the number of Tokens in the *context window* is less, that leads to low latence/ faster response and can be used for small sized documents ( eg. nano, mini, flash). These have 2000-4000 tokens (~1500-3000 words) and are often cheaper to run.
+If the number of Tokens in the *context window* is less, that leads to low latency/ faster response and can be used for small sized documents ( eg. nano, mini, flash). These have 2000-4000 tokens (~1500-3000 words) and are often cheaper to run.
 For large novels or changing large files, we typically need more number of tokens ( eg. GPT 4.1, Gemini 2.5)
 
 ## Context Window
@@ -43,12 +43,12 @@ Transformers are the "brains" behind almost all modern AI, including Gemini, Cha
 
 Before Transformers were invented by Google in 2017, AI processed text one word at a time, like a person reading through a straw. Transformers changed everything by allowing the AI to look at an entire sentence or document all at once.
 
-Its an architecture which enables context finding in a semantic way and parallel processing increasing the speed factor.
+Its an architecture which enables context finding in a semantic way and enabled parallel processing increasing the speed factor.
 
 
 # Langchain
 
-We can make a chatbot using an Open AI SDK. But we can quickly realise that there are some missing pieces. Storing Chat, maintaining conversation history, connecting to organisation's internal knolwedge system and handling the possiblity that company might switch from Open AI to anthropic or gemini in the future.
+We can make a chatbot using an Open AI SDK. But we might quickly realise that there are some missing pieces. Storing Chat, maintaining conversation history, connecting to organisation's internal knowledge system and handling the possiblity that company might switch from Open AI to anthropic or gemini in the future.
 
 To handle this complexity, we have a readily implemented abstraction layer called Langchain. This helps you build AI agents using minimal code. It addresses all those painpoints using pre-build components and standardised interfaces.
 
@@ -162,5 +162,5 @@ In the near future, AI will become even better by the deeper implementation of:
 * Proactive Compliance Alerts
 * Workflow Automation
 
-*This would not just answer questions but actively solve problems before users can even ask for.*
+*This would not just let AI answer questions but actively solve problems before users can even ask for.*
 

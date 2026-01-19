@@ -155,7 +155,7 @@ MCP not just functions like an API but also has self describing interfaces and t
 
 # Conclusion
 
-AI has helped us go from maual seaching by value or text (upto 30 mins) to complex semantic document search (<30secs) with better accuracy using context aware search.
+AI has helped us go from manual seaching by value or text (upto 30 mins) to complex semantic document search (<30secs) with better accuracy using context aware search.
 
 In the near future, AI will become even better by the deeper implementation of:
 * Predictive Analysis

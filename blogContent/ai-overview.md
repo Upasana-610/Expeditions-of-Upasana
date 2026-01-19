@@ -21,7 +21,7 @@ Lets read this article to not just understand these individually but also cohere
 
 # Large Language Models (LLMs)
 
-Large Language Models (LLMs) are a type of Artificial Intelligence designed to understand, summarize, and generate human-like text. They are developed using trillions of data.
+Large Language Models (LLMs) are a type of Artificial Intelligence designed to understand, summarize, and generate human-like text. They are developed and trained using trillions of data.
 
 ## Tokens
 

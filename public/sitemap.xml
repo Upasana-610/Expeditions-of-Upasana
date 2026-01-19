@@ -9,6 +9,10 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://upasana-s-expedition.vercel.app/blogs/ai-overview/</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://upasana-s-expedition.vercel.app/blogs/</loc>
     <priority>0.7</priority>
   </url>
